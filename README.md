@@ -1,5 +1,5 @@
 # SuperResolution
-The GitHub repository for this project contains code and documentation for implementing super-resolution techniques using MATLAB, focusing on enhancing image quality by correcting deficiencies in low-resolution images through alignment, overlay, deconvolution, and optimization methods such as least squares and regularized least squares.
+I use MATLAB to implement super-resolution techniques by correcting deficiencies in low-resolution images through alignment, overlay, deconvolution, and optimization methods such as regularized least squares.
 
 ![low2super](https://github.com/yanisgomes/SuperResolution/assets/115785457/dfaf6e30-244c-4736-aee1-a4389f42c870)
 
