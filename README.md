@@ -4,7 +4,8 @@ The GitHub repository for this project contains code and documentation for imple
 # Introduction
 Dans ce TP nous nous intéresseronsà la reconstruction d’une image sur-résolue c’est-à-dire avec une résolution supérieur à celle du détecteur à partir de n images basse résolution. Ce problème entre dans la classe des problèmes inverses qui peuvent se poser lors de l’utilisation de systèmes de mesure réels. Le but de la sur-résolution est d’inverser le repliement présent dans les images basse résolution.
 
-![low_res_img]()
+![Low-resolution image](![dataPlot](https://github.com/yanisgomes/SuperResolution/assets/115785457/48ce57fb-2938-42a8-80e7-d25a43dfcb1b)
+)
 
 # Super-Resolution x3
 
@@ -19,7 +20,8 @@ $$
 \operatorname{cor}=\frac{\left(\mathbb{E}\left\{I_{m 1}-\mathbb{E}\left\{I_{m 1}\right\}\right\}\right)\left(\mathbb{E}\left\{I_{m 2}-\mathbb{E}\left\{I_{m 2}\right\}\right\}\right)}{\operatorname{std}\left(I_{m 1}\right) \operatorname{std}\left(I_{m 2}\right)}'''
 $$
 
-![shift super res x5]()
+![Super resolved shit & add](https://github.com/yanisgomes/SuperResolution/assets/115785457/5957a30b-6fc2-49d7-8433-7c513be25319)
+
 
 # Deconvolution
 
@@ -35,9 +37,9 @@ $$
 
 where $\tilde{\boldsymbol{C}}$ is the circulant matrix approximation of the convolution matrix $C$, and $\boldsymbol{\Lambda}_c$ is a diagonal matrix containing the eigenvalues obtained from the FFT of the convolution kernel.
 
-![super res yo]()
+![superRes3](https://github.com/yanisgomes/SuperResolution/assets/115785457/21341d76-1df7-4c79-a336-4f79835cc24d)
 
-![noir et quadrillé]()
+![Moindres carrés](https://github.com/yanisgomes/SuperResolution/assets/115785457/965bff65-b11c-41e0-b3e9-e9301956edff)
 
 ## Regularization and Smoothing
 
@@ -56,17 +58,19 @@ The least squares method is employed to optimize the fit of the super-resolved i
 ## Gradient Descent
 Gradient descent is used to find the optimal parameters that minimize the least squares error function. This iterative method updates parameters in the direction of the steepest descent as defined by the gradient of the error function.
 
-![alpha 1]()
 
-![alpha 2]()
+![$\alpha$ = 0.015](https://github.com/yanisgomes/SuperResolution/assets/115785457/6bf07de4-df17-48eb-9578-fd4686bac8f9)
 
-![alpha 3]()
+![$\alpha$ = 0.9](https://github.com/yanisgomes/SuperResolution/assets/115785457/ecf73b34-b0fe-4b72-b74d-84f0b5f72cf0)
+
+![$\alpha$ = 1.03](https://github.com/yanisgomes/SuperResolution/assets/115785457/5d792c50-4409-4626-bffc-5d133cf6cceb)
 
 ## Correction of Edge Effects
 Addressing edge effects is crucial for maintaining the quality across the entire image. This involves adjusting the convolution operations to prevent artifacts at the boundaries of the image, which could otherwise lead to distortions in the final high-resolution output.
 
-![alpha2 1]()
+![$\alpha$ = 0.015](https://github.com/yanisgomes/SuperResolution/assets/115785457/20b0592c-d834-4db5-8bb0-da878af4911b)
 
-![alpha2 2]()
+![$\alpha$ = 0.9](https://github.com/yanisgomes/SuperResolution/assets/115785457/939a308b-2ac8-471c-b2ee-bf50fa0edc5e)
 
-![alpha2 3]()
+![$\alpha$ = 1.03](https://github.com/yanisgomes/SuperResolution/assets/115785457/78f6cb47-a142-46f3-ae5d-c09222a43268)
+
