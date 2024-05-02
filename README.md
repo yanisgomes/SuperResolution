@@ -3,7 +3,14 @@ The GitHub repository for this project contains code and documentation for imple
 
 | Low-resolution | Super-resolution x5 |
 |:---:|:---:|
-| ![Low-resolution image](https://github.com/yanisgomes/SuperResolution/assets/115785457/48ce57fb-2938-42a8-80e7-d25a43dfcb1b) | ![Super resolution x5](https://github.com/yanisgomes/SuperResolution/assets/115785457/567724b2-87b6-4b3c-beb1-05ef75a6aaee)
+| ![Low-resolution image](https://github.com/yanisgomes/SuperResolution/assets/115785457/bcf8edc3-58da-4551-8a08-32cf31dae2af) | ![Super resolution x5](https://github.com/yanisgomes/SuperResolution/assets/115785457/567724b2-87b6-4b3c-beb1-05ef75a6aaee)
+
+<table>
+  <tr>
+    <td> <img src="[url_to_image1](https://github.com/yanisgomes/SuperResolution/assets/115785457/bcf8edc3-58da-4551-8a08-32cf31dae2af)" alt="lowres" style="width: 800px;"/> </td>
+    <td> <img src="[url_to_image2](https://github.com/yanisgomes/SuperResolution/assets/115785457/567724b2-87b6-4b3c-beb1-05ef75a6aaee)" alt="supres" style="width: 800px;"/> </td>
+  </tr>
+</table>
 
 
 ## Estimation of Shifts
