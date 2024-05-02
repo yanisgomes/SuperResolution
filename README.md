@@ -1,10 +1,7 @@
 # SuperResolution
 The GitHub repository for this project contains code and documentation for implementing super-resolution techniques using MATLAB, focusing on enhancing image quality by correcting deficiencies in low-resolution images through alignment, overlay, deconvolution, and optimization methods such as least squares and regularized least squares.
 
-| Low-resolution | Super-resolution x5 |
-|:---:|:---:|
-| ![Low-resolution image](https://github.com/yanisgomes/SuperResolution/assets/115785457/bcf8edc3-58da-4551-8a08-32cf31dae2af) | ![Super resolution x5](https://github.com/yanisgomes/SuperResolution/assets/115785457/567724b2-87b6-4b3c-beb1-05ef75a6aaee)
-
+![low2super](https://github.com/yanisgomes/SuperResolution/assets/115785457/dfaf6e30-244c-4736-aee1-a4389f42c870)
 
 ## Estimation of Shifts
 In super-resolution, accurately estimating the shifts between different low-resolution images is crucial. This process aligns the images more precisely, enhancing the composite image quality. The estimation is based on maximizing the similarity measure, which in this case, is the correlation insensitivity to intensity variations.
