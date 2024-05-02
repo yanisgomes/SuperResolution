@@ -1,18 +1,12 @@
 # SuperResolution
 The GitHub repository for this project contains code and documentation for implementing super-resolution techniques using MATLAB, focusing on enhancing image quality by correcting deficiencies in low-resolution images through alignment, overlay, deconvolution, and optimization methods such as least squares and regularized least squares.
 
-# Introduction
-Dans ce TP nous nous intéresseronsà la reconstruction d’une image sur-résolue c’est-à-dire avec une résolution supérieur à celle du détecteur à partir de n images basse résolution. Ce problème entre dans la classe des problèmes inverses qui peuvent se poser lors de l’utilisation de systèmes de mesure réels. Le but de la sur-résolution est d’inverser le repliement présent dans les images basse résolution.
+| Low-resolution | Super-resolution x5 |
+|:---:|:---:|
+| ![Low-resolution image](https://github.com/yanisgomes/SuperResolution/assets/115785457/48ce57fb-2938-42a8-80e7-d25a43dfcb1b) | ![Super resolution x5](https://github.com/yanisgomes/SuperResolution/assets/115785457/567724b2-87b6-4b3c-beb1-05ef75a6aaee)
 
-![Low-resolution image](![dataPlot](https://github.com/yanisgomes/SuperResolution/assets/115785457/48ce57fb-2938-42a8-80e7-d25a43dfcb1b)
-)
-
-# Super-Resolution x3
-
-This repository contains MATLAB code and documentation for a super-resolution project aimed at enhancing image resolution beyond the capabilities of traditional detectors. The project applies various techniques to improve detail and sharpness by processing multiple low-resolution images.
 
 ## Estimation of Shifts
-
 In super-resolution, accurately estimating the shifts between different low-resolution images is crucial. This process aligns the images more precisely, enhancing the composite image quality. The estimation is based on maximizing the similarity measure, which in this case, is the correlation insensitivity to intensity variations.
 
 The mathematical representation of the correlation is as follows:
